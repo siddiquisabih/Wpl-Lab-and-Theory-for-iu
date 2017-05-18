@@ -1,0 +1,108 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css" />
+    <script src="jquery-3.1.1.min.js"></script>
+    <script src="code.js"></script>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <title>
+        WPL Task 2
+    </title>
+</head>
+
+<body>
+    <center>
+        <h1 id="makeHeading">Make Your Own CV</h1>
+    </center>
+
+    <!--data Section k liye yai wala div aye ga -->
+
+    <div id="d1">
+        <h3> Data Section </h3>
+        <label>Full Name</label><br/>
+        <input type="text" placeholder="Full Name" id="getFName"></br>
+        <label>Address</label><br/>
+        <input type="text" placeholder="Address" id="getAddress"></br>
+        <label>Contact Number</label><br/>
+        <input type="text" placeholder="Contact Number" id="getPhone"></br>
+        <label>Email Address</label><br/>
+        <input type="text" placeholder="Email Address" id="getemail"></br>
+    </div>
+
+
+    <!-- objective form-->
+
+
+    <div id="d2">
+        <h3> Objective Section </h3>
+        <label>Objective :</label><br/>
+        <textarea rows="5" cols="80" placeholder="objective for CV" id="getObjective"></textarea></br>
+    </div>
+
+    <!-- Education section k liye yai div aye ga-->
+    <div id="d3">
+        <h3> Education Section </h3>
+        <label>Matric Board</label><br/>
+        <input type="text" placeholder="School Name " id="schoolName">
+        <label>Year</label>
+        <input type="text" placeholder=" Year" id="boardYear">
+        <label>Program</label>
+        <input type="text" placeholder="Program" id="bordProgram">
+        </br>
+        <label>Inter</label><br/>
+        <input type="text" placeholder="Collage Name" id="collageName">
+        <label>Year</label>
+        <input type="text" placeholder=" Year" id="collageYear">
+        <label>Program</label>
+        <input type="text" placeholder="Program" id="collageProgram">
+        </br>
+
+    </div>
+
+
+    <!--activity k liye yai wala hai div-->
+    <!--<div id="d4">
+<h3> About You </h3>
+    <label>Game</label><br/>
+<input type="text" placeholder="Game"></br>
+    <label>Hobby</label><br/>
+<input type="text" placeholder="Hobby"></br>
+    <label>Extra Activity</label><br/>
+<input type="text" placeholder="Extra Activity"></br>
+</div>-->
+
+
+    <div id="d4">
+        <!-- -->
+        <h1>
+            <center><i> Resume</i> </center>
+        </h1>
+        <br/>
+        <br/>
+        <h2> <i id="PutName">  <!--Name-->  </i> </h2>
+        <p id="putAddress">
+            <!--address -->
+            <br/> <span id="email"><!--email--> </span> <br/>
+
+            <span id="putPhoneNumber"> <!--phone number--> </span><br/></p>
+
+        <h2> <i>Objective</i> </h2>
+        <div id="putObjective"> </div>
+        <h2> <i>Education </i> </h2>
+        <p><b> Inter </b> : <span id="PutcolProName"> <!--pro Name--> </span> in <span id="putcolYear">  <!--year--> </span>from
+            <b> <span id="putColName"> <!--collage name--> </span></b><br>
+            <b> Matric</b> : <span id="putschPro"> <!--pro Name--> </span> in <span id="putschYear"> <!--year--> </span>            from <b><span id="putSchName"> <!--school name--> </span></b></p>
+        <!--<h2>  <i> Technical Skills</i>
+                                          
+                                         </h2> <li> C++ </li><li> Git (version Control System)</li>
+                                          <li> Microsoft Office</li>
+                                         <li> Object Oriented Programing-->
+    </div>
+
+
+    <button id="b1" class="btn btn-danger">  Next  </button>
+    <script src="code.js" />
+
+</body>
+
+</html>
